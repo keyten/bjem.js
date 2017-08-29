@@ -75,7 +75,7 @@ $('.button:bem').on('mod:theme(islands)');
 $('.button:bem').on('mod:theme(^islands)'); // при удалении мода
 
 // создаём новый мод
-$.blocks['button'].declMod('theme', {
+$.block('button').declMod('theme', {
 	init: function(){},
 
 	on: {
